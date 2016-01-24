@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5B6B00E0-61FB-4A4D-BF59-3D360B7BEC52}</ProjectGuid>
+    <ProjectGuid>{DE3CCFDB-C0D0-4D0D-B4C9-5130B125CF75}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chapter_4</RootNamespace>
-    <AssemblyName>Chapter_4</AssemblyName>
+    <RootNamespace>Chapter_7</RootNamespace>
+    <AssemblyName>Chapter_7</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,9 +42,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Prog_5.cs" />
     <None Include="Prog_3.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Prog_4.cs" />
+    <None Include="Prog_5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Prog_6.cs" />
@@ -56,8 +58,10 @@
     <None Include="Prog_8.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Prog_10.cs" />
     <None Include="Prog_9.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Prog_10.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Prog_11.cs" />
@@ -70,12 +74,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Prog_14.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Prog_15.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Prog_16.cs" />
+    <None Include="Prog_16.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Prog_17.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Prog_18.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Prog_19.cs" />
+    <None Include="Prog_20.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Prog_21.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Prog_22.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Prog_23.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Prog_24.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
